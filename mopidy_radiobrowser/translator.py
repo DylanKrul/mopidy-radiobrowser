@@ -8,10 +8,10 @@ import locale
 
 from mopidy.models import Album, Artist, Ref, Track
 
-actualLocale = locale.getlocale()
+#actualLocale = locale.getlocale()
 logger = logging.getLogger(__name__)
-localLanguage = gettext.translation('iso3166', pycountry.LOCALES_DIR, languages=[actualLocale[0]])
-localLanguage.install()
+#localLanguage = gettext.translation('iso3166', pycountry.LOCALES_DIR, languages=[actualLocale[0]])
+#localLanguage.install()
 
 RADIOBROWSER_API_ENCODING = 'utf-8'
 
